@@ -21,6 +21,6 @@ app.get("/api", async (req, res) => {
   res.json({message: 'Hello, you can get now!'})
 });
 
-app.listen(3002, () => {
-  console.log("Server is running on PORT 3002")
+app.listen(port, () => {
+  console.log("Server is running on PORT" + port)
 })
